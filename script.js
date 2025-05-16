@@ -89,27 +89,25 @@ function buscarVacina() {
   }
 
   const postosComVacina = postosVacina
-  .filter(posto => {
-    if (!posto.vacinas) return false;
-    // Busca vacina compatível
-    const nomeCorrespondente = Object.keys(posto.vacinas).find(vacina =>
-      vacina.startsWith(termo) || vacina.includes(termo)
-    );
-    return nomeCorrespondente && posto.vacinas[nomeCorrespondente] > 0;
-  })
-  .map(posto => {
-    // Localiza novamente a vacina correspondente para exibir
-    const vacinaCorrespondente = Object.keys(posto.vacinas).find(vacina =>
-      vacina.startsWith(termo) || vacina.includes(termo)
-    );
-    return {
-      ...posto,
-      vacinaEncontrada: vacinaCorrespondente,
-      quantidade: posto.vacinas[vacinaCorrespondente],
-      distancia: calcularDistancia(usuarioPosicao, posto.coords),
-    };
-  })  
-  .sort((a, b) => a.distancia - b.distancia);
+    .filter(posto => {
+      if (!posto.vacinas) return false;
+      const nomeCorrespondente = Object.keys(posto.vacinas).find(vacina =>
+        vacina.startsWith(termo) || vacina.includes(termo)
+      );
+      return nomeCorrespondente && posto.vacinas[nomeCorrespondente] > 0;
+    })
+    .map(posto => {
+      const vacinaCorrespondente = Object.keys(posto.vacinas).find(vacina =>
+        vacina.startsWith(termo) || vacina.includes(termo)
+      );
+      return {
+        ...posto,
+        vacinaEncontrada: vacinaCorrespondente,
+        quantidade: posto.vacinas[vacinaCorrespondente],
+        distancia: calcularDistancia(usuarioPosicao, posto.coords),
+      };
+    })
+    .sort((a, b) => a.distancia - b.distancia);
 
   if (postosComVacina.length === 0) {
     mensagemErro.innerHTML = `<p>Nenhum posto encontrado para a vacina "${termo.replace(/_/g, " ")}".</p>`;
@@ -129,7 +127,6 @@ function buscarVacina() {
       <strong>Distância:</strong> ${posto.distancia.toFixed(2)} km
     `;
 
-    // Adicionar evento de clique para centralizar o mapa no local e mostrar só esse marcador
     item.addEventListener("click", () => {
       limparMarcadores();
       const marcador = new google.maps.Marker({
@@ -156,11 +153,9 @@ function buscarVacina() {
       });
 
       marcadores.push(marcador);
-
       mapa.panTo(posto.coords);
       mapa.setZoom(15);
 
-      // Scroll para a div do mapa para centralizá-la na viewport
       const mapaDiv = document.getElementById("mapa");
       if (mapaDiv) {
         mapaDiv.scrollIntoView({ behavior: "smooth", block: "center" });
@@ -174,6 +169,7 @@ function buscarVacina() {
 
   const maisProximos = postosComVacina.slice(0, 5);
   limparMarcadores();
+
   maisProximos.forEach(posto => {
     const marcador = new google.maps.Marker({
       position: posto.coords,
@@ -188,7 +184,7 @@ function buscarVacina() {
         <strong>Vacina:</strong> ${posto.vacinaEncontrada.replace(/_/g, " ").toUpperCase()}<br/>
         <strong>Quantidade disponível:</strong> ${posto.quantidade}
       `,
-    });    
+    });
 
     marcador.addListener("click", () => {
       if (infoWindowAberto) {
@@ -201,27 +197,14 @@ function buscarVacina() {
     marcadores.push(marcador);
   });
 
-  // Centralizar o mapa na média das coordenadas dos resultados
   if (maisProximos.length > 0) {
-    let latSum = 0;
-    let lngSum = 0;
-    maisProximos.forEach(posto => {
-      latSum += posto.coords.lat;
-      lngSum += posto.coords.lng;
-    });
-    const centro = {
-      lat: latSum / maisProximos.length,
-      lng: lngSum / maisProximos.length
-    };
-    mapa.setCenter(centro);
-    mapa.setZoom(13);
+    mapa.setCenter(maisProximos[0].coords);
+    mapa.setZoom(14);
   } else {
-    // Se não houver resultados, centraliza na posição do usuário
     mapa.setCenter(usuarioPosicao);
     mapa.setZoom(13);
   }
 
-  // Scroll para a div do mapa para centralizá-la na viewport
   const mapaDiv = document.getElementById("mapa");
   if (mapaDiv) {
     mapaDiv.scrollIntoView({ behavior: "smooth", block: "center" });
