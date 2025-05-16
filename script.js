@@ -306,3 +306,4 @@ document.getElementById("search").addEventListener("keydown", function (event) {
 });
 
 window.inicializarMapa = inicializarMapa;
+window.buscarVacina = buscarVacina;
