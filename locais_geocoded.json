@@ -1,0 +1,1266 @@
+[
+  {
+    "posto": "Parque da Criança",
+    "bairro": "Catolé",
+    "endereco": "Av. Dr. Elpídio de Almeida, 215 - Catolé, Campina Grande - PB, 58410-215",
+    "coords": {
+      "lat": -7.2270857,
+      "lng": -35.878343
+    },
+    "vacinas": {
+      "covid": 13,
+      "influenza": 0,
+      "hpv": 8,
+      "hepatite": 9,
+      "febre_amarela": 1
+    }
+  },
+  {
+    "posto": "ISEA",
+    "bairro": "Centro",
+    "endereco": "R. Vila Nova da Rainha, 147 - Centro, Campina Grande - PB, 58400-220",
+    "coords": {
+      "lat": -7.2218008,
+      "lng": -35.8780613
+    },
+    "vacinas": {
+      "covid": 5,
+      "influenza": 9,
+      "hpv": 3,
+      "hepatite": 0,
+      "febre_amarela": 17
+    }
+  },
+  {
+    "posto": "Integração",
+    "bairro": "Centro",
+    "endereco": "Centro, Campina Grande - PB",
+    "coords": {
+      "lat": -7.2218777,
+      "lng": -35.8797893
+    },
+    "vacinas": {
+      "covid": 7,
+      "influenza": 0,
+      "hpv": 17,
+      "hepatite": 0,
+      "febre_amarela": 17
+    }
+  },
+  {
+    "posto": "Hospital Pedro I (Casa da Vacina)",
+    "bairro": "São José",
+    "endereco": "Av. Dom Pedro I - São José, Campina Grande - PB, 58400-328",
+    "coords": {
+      "lat": -7.228980399999999,
+      "lng": -35.8933278
+    },
+    "vacinas": {
+      "covid": 18,
+      "influenza": 0,
+      "hpv": 1,
+      "hepatite": 3,
+      "febre_amarela": 18
+    }
+  },
+  {
+    "posto": "Trailer da FAP",
+    "bairro": "Av. Brasília",
+    "endereco": "R. Dr. Francisco Pinto Oliveira, S/N - Bodocongó, Campina Grande - PB, 58429-350",
+    "coords": {
+      "lat": -7.204734299999999,
+      "lng": -35.9080809
+    },
+    "vacinas": {
+      "covid": 13,
+      "influenza": 18,
+      "hpv": 0,
+      "hepatite": 11,
+      "febre_amarela": 0
+    }
+  },
+  {
+    "posto": "Policlínica Dr. Francisco Pinto",
+    "bairro": "Centro",
+    "endereco": "R. Venâncio Neiva - Centro, Campina Grande - PB, 58400-090",
+    "coords": {
+      "lat": -7.219136199999999,
+      "lng": -35.8838491
+    },
+    "vacinas": {
+      "covid": 0,
+      "influenza": 0,
+      "hpv": 0,
+      "hepatite": 0,
+      "febre_amarela": 10
+    }
+  },
+  {
+    "posto": "UBS Antônio Arruda",
+    "bairro": "José Pinheiro",
+    "endereco": "José Pinheiro, Campina Grande - PB, 58406-090",
+    "coords": {
+      "lat": -7.2200682,
+      "lng": -35.8708822
+    },
+    "vacinas": {
+      "covid": 6,
+      "influenza": 17,
+      "hpv": 0,
+      "hepatite": 19,
+      "febre_amarela": 13
+    }
+  },
+  {
+    "posto": "UBS Antônio Mesquita",
+    "bairro": "Monte Castelo",
+    "endereco": "R. Obededon Licarião, SN - Monte Castelo, Campina Grande - PB, 58407-015",
+    "coords": {
+      "lat": -7.219164500000001,
+      "lng": -35.8649415
+    },
+    "vacinas": {
+      "covid": 0,
+      "influenza": 8,
+      "hpv": 2,
+      "hepatite": 16,
+      "febre_amarela": 0
+    }
+  },
+  {
+    "posto": "UBS Campos Sales",
+    "bairro": "José Pinheiro",
+    "endereco": "R. campos Sales, 770 - José Pinheiro, Campina Grande - PB, 58407-450",
+    "coords": {
+      "lat": -7.2271097,
+      "lng": -35.8721894
+    },
+    "vacinas": {
+      "covid": 0,
+      "influenza": 16,
+      "hpv": 0,
+      "hepatite": 14,
+      "febre_amarela": 2
+    }
+  },
+  {
+    "posto": "UBS Francisco Brasileiro",
+    "bairro": "José Pinheiro",
+    "endereco": "R. Srg. Édson Sáles, 610 - José Pinheiro, Campina Grande - PB, 58407-388",
+    "coords": {
+      "lat": -7.222515700000001,
+      "lng": -35.8687898
+    },
+    "vacinas": {
+      "covid": 0,
+      "influenza": 13,
+      "hpv": 0,
+      "hepatite": 0,
+      "febre_amarela": 1
+    }
+  },
+  {
+    "posto": "UBS Horacina de Almeida",
+    "bairro": "Monte Castelo",
+    "endereco": "Av. Francisco Lopes de Almeida - Santa Cruz, Campina Grande - PB, 58417-290",
+    "coords": {
+      "lat": -7.2462581,
+      "lng": -35.9124789
+    },
+    "vacinas": {
+      "covid": 3,
+      "influenza": 3,
+      "hpv": 14,
+      "hepatite": 14,
+      "febre_amarela": 1
+    }
+  },
+  {
+    "posto": "UBS Jardim Tavares",
+    "bairro": "Jardim Tavares",
+    "endereco": "R. Epaminondas Macaxeira, 175 - Jardim Tavares, Campina Grande - PB, 58402-053",
+    "coords": {
+      "lat": -7.210497399999999,
+      "lng": -35.874999
+    },
+    "vacinas": {
+      "covid": 0,
+      "influenza": 1,
+      "hpv": 15,
+      "hepatite": 0,
+      "febre_amarela": 10
+    }
+  },
+  {
+    "posto": "UBS Padre Hachid",
+    "bairro": "Glória",
+    "endereco": "Nova Brasília, Campina Grande - PB, 58406-180",
+    "coords": {
+      "lat": -7.2127496,
+      "lng": -35.8580664
+    },
+    "vacinas": {
+      "covid": 11,
+      "influenza": 9,
+      "hpv": 7,
+      "hepatite": 7,
+      "febre_amarela": 0
+    }
+  },
+  {
+    "posto": "UBS Plínio Lemos",
+    "bairro": "José Pinheiro",
+    "endereco": "R. Severino Branco, 152 - Monte Castelo, Campina Grande - PB, 58407-050",
+    "coords": {
+      "lat": -7.219096599999999,
+      "lng": -35.8697108
+    },
+    "vacinas": {
+      "covid": 9,
+      "influenza": 20,
+      "hpv": 0,
+      "hepatite": 6,
+      "febre_amarela": 4
+    }
+  },
+  {
+    "posto": "UBS Tota Agra",
+    "bairro": "José Pinheiro",
+    "endereco": "R. Pedro da Costa Agra - José Pinheiro, Campina Grande - PB, 58407-270",
+    "coords": {
+      "lat": -7.2254439,
+      "lng": -35.8682139
+    },
+    "vacinas": {
+      "covid": 0,
+      "influenza": 17,
+      "hpv": 2,
+      "hepatite": 14,
+      "febre_amarela": 3
+    }
+  },
+  {
+    "posto": "UBS Wesley Cariry Targino",
+    "bairro": "Nova Brasília",
+    "endereco": "Nova Brasília, Campina Grande - PB",
+    "coords": {
+      "lat": -7.215832799999999,
+      "lng": -35.8593486
+    },
+    "vacinas": {
+      "covid": 4,
+      "influenza": 2,
+      "hpv": 13,
+      "hepatite": 3,
+      "febre_amarela": 9
+    }
+  },
+  {
+    "posto": "Policlínica da Bela Vista",
+    "bairro": "Bela Vista",
+    "endereco": "R. Dom Pedro II, S/N - Bela Vista, Campina Grande - PB, 58400-062",
+    "coords": {
+      "lat": -7.2176194,
+      "lng": -35.9005749
+    },
+    "vacinas": {
+      "covid": 10,
+      "influenza": 19,
+      "hpv": 8,
+      "hepatite": 8,
+      "febre_amarela": 17
+    }
+  },
+  {
+    "posto": "UBS Adalberto César",
+    "bairro": "Pedregal",
+    "endereco": "Pedregal, Campina Grande - PB",
+    "coords": {
+      "lat": -7.2232999,
+      "lng": -35.9077165
+    },
+    "vacinas": {
+      "covid": 16,
+      "influenza": 9,
+      "hpv": 15,
+      "hepatite": 3,
+      "febre_amarela": 4
+    }
+  },
+  {
+    "posto": "UBS Adriana Bezerra",
+    "bairro": "Santa Rosa",
+    "endereco": "R. Pedro Otávio de Farias Leite, 690 - Jardim Paulistano, Campina Grande - PB, 58105-300",
+    "coords": {
+      "lat": -7.245009399999999,
+      "lng": -35.8940094
+    },
+    "vacinas": {
+      "covid": 19,
+      "influenza": 0,
+      "hpv": 11,
+      "hepatite": 16,
+      "febre_amarela": 6
+    }
+  },
+  {
+    "posto": "UBS Alice Maria Rodrigues",
+    "bairro": "São José",
+    "endereco": "R. Castro Pinto, 261 - São José, Campina Grande - PB, 58400-420",
+    "coords": {
+      "lat": -7.2264937,
+      "lng": -35.8965087
+    },
+    "vacinas": {
+      "covid": 16,
+      "influenza": 6,
+      "hpv": 11,
+      "hepatite": 8,
+      "febre_amarela": 0
+    }
+  },
+  {
+    "posto": "UBS Bodocongó",
+    "bairro": "Bodocongó",
+    "endereco": "R. Florípedes Coutinho - Bodocongó, Campina Grande - PB, 58433-370",
+    "coords": {
+      "lat": -7.217189799999999,
+      "lng": -35.9206405
+    },
+    "vacinas": {
+      "covid": 10,
+      "influenza": 14,
+      "hpv": 19,
+      "hepatite": 2,
+      "febre_amarela": 18
+    }
+  },
+  {
+    "posto": "UBS Eduardo Ramos",
+    "bairro": "Centenário",
+    "endereco": "R. Ladislau Rodrigues de Souza, 428 - Centenário, Campina Grande - PB, 58428-090",
+    "coords": {
+      "lat": -7.2287631,
+      "lng": -35.9018619
+    },
+    "vacinas": {
+      "covid": 0,
+      "influenza": 7,
+      "hpv": 8,
+      "hepatite": 13,
+      "febre_amarela": 4
+    }
+  },
+  {
+    "posto": "UBS Hindemburgo Nunes",
+    "bairro": "Ramadinha",
+    "endereco": "R. Rad. Martin Lutero de Lima Nunes - Malvinas, Campina Grande - PB, 58434-094",
+    "coords": {
+      "lat": -7.231567,
+      "lng": -35.9339785
+    },
+    "vacinas": {
+      "covid": 13,
+      "influenza": 18,
+      "hpv": 0,
+      "hepatite": 14,
+      "febre_amarela": 13
+    }
+  },
+  {
+    "posto": "UBS Jardim Quarenta",
+    "bairro": "Jardim Quarenta",
+    "endereco": "Av. Pres. Juscelino Kubitschek, 233 - Jardim Quarenta, Campina Grande - PB, 58420-030",
+    "coords": {
+      "lat": -7.239039900000001,
+      "lng": -35.9014427
+    },
+    "vacinas": {
+      "covid": 19,
+      "influenza": 0,
+      "hpv": 5,
+      "hepatite": 14,
+      "febre_amarela": 20
+    }
+  },
+  {
+    "posto": "UBS João Rique",
+    "bairro": "Bodocongó",
+    "endereco": "R. Cantor Paulo Sérgio - Bodocongó, Campina Grande - PB, 58430",
+    "coords": {
+      "lat": -7.224403,
+      "lng": -35.9179346
+    },
+    "vacinas": {
+      "covid": 3,
+      "influenza": 0,
+      "hpv": 20,
+      "hepatite": 5,
+      "febre_amarela": 16
+    }
+  },
+  {
+    "posto": "UBS Malvinas V",
+    "bairro": "Malvinas",
+    "endereco": "R. José Zacarias da Costa, 504 - Malvinas, Campina Grande - PB, 58433-272",
+    "coords": {
+      "lat": -7.2308454,
+      "lng": -35.9231338
+    },
+    "vacinas": {
+      "covid": 14,
+      "influenza": 6,
+      "hpv": 2,
+      "hepatite": 1,
+      "febre_amarela": 0
+    }
+  },
+  {
+    "posto": "UBS Maria Marques Diniz",
+    "bairro": "Ramadinha",
+    "endereco": "R. Vicente Gomes Almeida, 1047 - Ramadinha, Campina Grande - PB, 58433-824",
+    "coords": {
+      "lat": -7.223908199999999,
+      "lng": -35.9258639
+    },
+    "vacinas": {
+      "covid": 20,
+      "influenza": 12,
+      "hpv": 17,
+      "hepatite": 0,
+      "febre_amarela": 13
+    }
+  },
+  {
+    "posto": "UBS Quarenta",
+    "bairro": "Quarenta",
+    "endereco": "R. do Sol, 810 - Quarenta, Campina Grande - PB, 58416-280",
+    "coords": {
+      "lat": -7.2332774,
+      "lng": -35.9023128
+    },
+    "vacinas": {
+      "covid": 0,
+      "influenza": 0,
+      "hpv": 1,
+      "hepatite": 16,
+      "febre_amarela": 4
+    }
+  },
+  {
+    "posto": "UBS Raimundo Carneiro",
+    "bairro": "Centenário",
+    "endereco": "R. Reginaldo C. Pereira, 185 - Centenário, Campina Grande - PB, 58428-200",
+    "coords": {
+      "lat": -7.226566999999999,
+      "lng": -35.9108503
+    },
+    "vacinas": {
+      "covid": 1,
+      "influenza": 0,
+      "hpv": 0,
+      "hepatite": 0,
+      "febre_amarela": 0
+    }
+  },
+  {
+    "posto": "UBS Ricardo Amorim Guedes",
+    "bairro": "Malvinas",
+    "endereco": "R. José Zacarias da Costa, 504 - Malvinas, Campina Grande - PB, 58433-272",
+    "coords": {
+      "lat": -7.2308454,
+      "lng": -35.9231338
+    },
+    "vacinas": {
+      "covid": 0,
+      "influenza": 13,
+      "hpv": 11,
+      "hepatite": 14,
+      "febre_amarela": 20
+    }
+  },
+  {
+    "posto": "Policlínica da Palmeira",
+    "bairro": "Palmeira",
+    "endereco": "R. Ana de Azevedo, 502 - Palmeira, Campina Grande - PB, 58401-093",
+    "coords": {
+      "lat": -7.2097959,
+      "lng": -35.8961432
+    },
+    "vacinas": {
+      "covid": 6,
+      "influenza": 16,
+      "hpv": 20,
+      "hepatite": 10,
+      "febre_amarela": 17
+    }
+  },
+  {
+    "posto": "UBS Bonald Filho",
+    "bairro": "Monte Santo",
+    "endereco": "R. Henrique Sáles Monteiro, 1135 - Santa Rosa, Campina Grande - PB, 58417-050",
+    "coords": {
+      "lat": -7.2398082,
+      "lng": -35.9078491
+    },
+    "vacinas": {
+      "covid": 18,
+      "influenza": 11,
+      "hpv": 18,
+      "hepatite": 0,
+      "febre_amarela": 13
+    }
+  },
+  {
+    "posto": "UBS Conceição",
+    "bairro": "Conceição",
+    "endereco": "R. José P. Soares, 65 - Conceição, Campina Grande - PB, 58401-296",
+    "coords": {
+      "lat": -7.211326199999998,
+      "lng": -35.8857289
+    },
+    "vacinas": {
+      "covid": 8,
+      "influenza": 2,
+      "hpv": 4,
+      "hepatite": 13,
+      "febre_amarela": 10
+    }
+  },
+  {
+    "posto": "UBS Inácio Mayer",
+    "bairro": "Jeremias",
+    "endereco": "R. Inácio da Costa Sampaio - Jeremias, Campina Grande - PB, 58404-170",
+    "coords": {
+      "lat": -7.2026887,
+      "lng": -35.8989808
+    },
+    "vacinas": {
+      "covid": 18,
+      "influenza": 0,
+      "hpv": 13,
+      "hepatite": 19,
+      "febre_amarela": 0
+    }
+  },
+  {
+    "posto": "UBS Jocel Fechine",
+    "bairro": "Cuités",
+    "endereco": "Cuités, Campina Grande - PB",
+    "coords": {
+      "lat": -7.1928831,
+      "lng": -35.901587
+    },
+    "vacinas": {
+      "covid": 0,
+      "influenza": 5,
+      "hpv": 0,
+      "hepatite": 0,
+      "febre_amarela": 14
+    }
+  },
+  {
+    "posto": "UBS Novo Araxá",
+    "bairro": "Araxá",
+    "endereco": "Av. Alcides Carneiro, 506 - Araxá, Campina Grande - PB, 58404-250",
+    "coords": {
+      "lat": -7.2041095,
+      "lng": -35.9083903
+    },
+    "vacinas": {
+      "covid": 5,
+      "influenza": 20,
+      "hpv": 20,
+      "hepatite": 5,
+      "febre_amarela": 19
+    }
+  },
+  {
+    "posto": "Policlínica do Catolé",
+    "bairro": "Catolé",
+    "endereco": "R. Profa. Eutécia Vital Ribeiro - Sandra Cavalcante, Campina Grande - PB, 58410-205",
+    "coords": {
+      "lat": -7.2394572,
+      "lng": -35.8727472
+    },
+    "vacinas": {
+      "covid": 9,
+      "influenza": 0,
+      "hpv": 4,
+      "hepatite": 0,
+      "febre_amarela": 18
+    }
+  },
+  {
+    "posto": "UBS Antônio Virgílio Brasileiro",
+    "bairro": "Aluízio Campos",
+    "endereco": "R. Austro de França Costa, 2 - Galante, Campina Grande - PB",
+    "coords": {
+      "lat": -7.2957789,
+      "lng": -35.8797866
+    },
+    "vacinas": {
+      "covid": 0,
+      "influenza": 0,
+      "hpv": 18,
+      "hepatite": 15,
+      "febre_amarela": 16
+    }
+  },
+  {
+    "posto": "UBS Crisóstomo Lucena",
+    "bairro": "Aluízio Campos",
+    "endereco": "Av. Ronaldo José da Cunha Lima, S/N - Complexo Aluízio Campos, Campina Grande - PB, 58475-000",
+    "coords": {
+      "lat": -7.2884574,
+      "lng": -35.8837253
+    },
+    "vacinas": {
+      "covid": 5,
+      "influenza": 10,
+      "hpv": 0,
+      "hepatite": 0,
+      "febre_amarela": 18
+    }
+  },
+  {
+    "posto": "UBS Estação Velha",
+    "bairro": "Estação Velha",
+    "endereco": "Estacao Velha, Campina Grande - PB, 58400",
+    "coords": {
+      "lat": -7.2314038,
+      "lng": -35.8866017
+    },
+    "vacinas": {
+      "covid": 4,
+      "influenza": 20,
+      "hpv": 14,
+      "hepatite": 0,
+      "febre_amarela": 0
+    }
+  },
+  {
+    "posto": "UBS Galante",
+    "bairro": "Galante",
+    "endereco": "R. Antônio da Silva, 91 - Galante, Campina Grande - PB",
+    "coords": {
+      "lat": -7.307133299999999,
+      "lng": -35.7844167
+    },
+    "vacinas": {
+      "covid": 10,
+      "influenza": 5,
+      "hpv": 8,
+      "hepatite": 7,
+      "febre_amarela": 0
+    }
+  },
+  {
+    "posto": "UBS José Bezerra Pimentel",
+    "bairro": "Sandra Cavalcante",
+    "endereco": "R. Prof. Clóves de Oliveira, 173 - Sandra Cavalcante, Campina Grande - PB, 58410-760",
+    "coords": {
+      "lat": -7.243335200000001,
+      "lng": -35.876993
+    },
+    "vacinas": {
+      "covid": 10,
+      "influenza": 15,
+      "hpv": 4,
+      "hepatite": 8,
+      "febre_amarela": 0
+    }
+  },
+  {
+    "posto": "UBS Liberdade III",
+    "bairro": "Liberdade",
+    "endereco": "R. São Paulo, 173 - Liberdade, Campina Grande - PB, 58414-050",
+    "coords": {
+      "lat": -7.2311858,
+      "lng": -35.89045309999999
+    },
+    "vacinas": {
+      "covid": 20,
+      "influenza": 20,
+      "hpv": 0,
+      "hepatite": 12,
+      "febre_amarela": 13
+    }
+  },
+  {
+    "posto": "UBS Nossa Senhora Aparecida",
+    "bairro": "Tambor",
+    "endereco": "R. João Bezerra Paes, 35 - Catolé, Campina Grande - PB, 58410-475",
+    "coords": {
+      "lat": -7.2430951,
+      "lng": -35.8851993
+    },
+    "vacinas": {
+      "covid": 6,
+      "influenza": 18,
+      "hpv": 0,
+      "hepatite": 9,
+      "febre_amarela": 0
+    }
+  },
+  {
+    "posto": "UBS Tambor I",
+    "bairro": "Tambor",
+    "endereco": "R. Maurício Travassos Moura, 237 - Tambor, Campina Grande - PB, 58414-495",
+    "coords": {
+      "lat": -7.249839799999999,
+      "lng": -35.889546
+    },
+    "vacinas": {
+      "covid": 11,
+      "influenza": 8,
+      "hpv": 0,
+      "hepatite": 0,
+      "febre_amarela": 12
+    }
+  },
+  {
+    "posto": "UBS Tambor II",
+    "bairro": "Tambor",
+    "endereco": "R. Maurício Travassos Moura, 237 - Tambor, Campina Grande - PB, 58414-495",
+    "coords": {
+      "lat": -7.249839799999999,
+      "lng": -35.889546
+    },
+    "vacinas": {
+      "covid": 10,
+      "influenza": 12,
+      "hpv": 0,
+      "hepatite": 13,
+      "febre_amarela": 3
+    }
+  },
+  {
+    "posto": "UBS Wilson Furtado I",
+    "bairro": "Vila Cabral",
+    "endereco": "R. Dr. Wilson Furtado - Campina Grande, PB, 58410-835",
+    "coords": {
+      "lat": -7.2475612,
+      "lng": -35.8771992
+    },
+    "vacinas": {
+      "covid": 1,
+      "influenza": 0,
+      "hpv": 8,
+      "hepatite": 0,
+      "febre_amarela": 19
+    }
+  },
+  {
+    "posto": "UBS Wilson Furtado II",
+    "bairro": "Itararé",
+    "endereco": "R. Dr. Wilson Furtado - Campina Grande, PB, 58410-835",
+    "coords": {
+      "lat": -7.2475612,
+      "lng": -35.8771992
+    },
+    "vacinas": {
+      "covid": 16,
+      "influenza": 14,
+      "hpv": 0,
+      "hepatite": 16,
+      "febre_amarela": 0
+    }
+  },
+  {
+    "posto": "Policlínica da Liberdade",
+    "bairro": "Liberdade",
+    "endereco": "R. Pernambuco, 815 - Liberdade, Campina Grande - PB, 58410-068",
+    "coords": {
+      "lat": -7.233564599999999,
+      "lng": -35.8923451
+    },
+    "vacinas": {
+      "covid": 0,
+      "influenza": 4,
+      "hpv": 13,
+      "hepatite": 6,
+      "febre_amarela": 0
+    }
+  },
+  {
+    "posto": "UBS Aluísio Salviano de Farias",
+    "bairro": "Três Irmãs",
+    "endereco": "Três Irmãs, Campina Grande - PB, 58424-280",
+    "coords": {
+      "lat": -7.265454900000001,
+      "lng": -35.9317936
+    },
+    "vacinas": {
+      "covid": 20,
+      "influenza": 18,
+      "hpv": 4,
+      "hepatite": 17,
+      "febre_amarela": 9
+    }
+  },
+  {
+    "posto": "UBS Anailda Carvalho",
+    "bairro": "Acácio Figueiredo",
+    "endereco": "R. Saúl Bezerra Carvalho - Acácio Figueiredo, Campina Grande - PB, 58417-605",
+    "coords": {
+      "lat": -7.252566,
+      "lng": -35.9141968
+    },
+    "vacinas": {
+      "covid": 19,
+      "influenza": 5,
+      "hpv": 1,
+      "hepatite": 1,
+      "febre_amarela": 19
+    }
+  },
+  {
+    "posto": "UBS Argemiro de Figueiredo",
+    "bairro": "Cruzeiro",
+    "endereco": "R. José Gonçalves Lucena - Liberdade, Campina Grande - PB, 58415-375",
+    "coords": {
+      "lat": -7.2487942,
+      "lng": -35.9006472
+    },
+    "vacinas": {
+      "covid": 17,
+      "influenza": 9,
+      "hpv": 14,
+      "hepatite": 0,
+      "febre_amarela": 17
+    }
+  },
+  {
+    "posto": "UBS Maria de Lourdes Leôncio",
+    "bairro": "Novo Cruzeiro",
+    "endereco": "R. Josef Schafer, 395-289 - Cruzeiro, Campina Grande - PB, 58415-480",
+    "coords": {
+      "lat": -7.2535097,
+      "lng": -35.9034487
+    },
+    "vacinas": {
+      "covid": 11,
+      "influenza": 14,
+      "hpv": 5,
+      "hepatite": 4,
+      "febre_amarela": 9
+    }
+  },
+  {
+    "posto": "UBS Novo Horizonte",
+    "bairro": "Novo Horizonte",
+    "endereco": "Av. João Wallig, 2677 - Distrito Industrial, Campina Grande - PB, 58411-170",
+    "coords": {
+      "lat": -7.2590894,
+      "lng": -35.9007888
+    },
+    "vacinas": {
+      "covid": 0,
+      "influenza": 3,
+      "hpv": 17,
+      "hepatite": 7,
+      "febre_amarela": 15
+    }
+  },
+  {
+    "posto": "UBS Raiff Ramalho",
+    "bairro": "Santa Cruz",
+    "endereco": "Av. Francisco Lopes de Almeida - Santa Cruz, Campina Grande - PB, 58417-290",
+    "coords": {
+      "lat": -7.2462581,
+      "lng": -35.9124789
+    },
+    "vacinas": {
+      "covid": 10,
+      "influenza": 0,
+      "hpv": 11,
+      "hepatite": 0,
+      "febre_amarela": 15
+    }
+  },
+  {
+    "posto": "UBS Ressurreição",
+    "bairro": "Ressurreição",
+    "endereco": "Campina Grande, State of Paraíba",
+    "coords": {
+      "lat": -7.2206167,
+      "lng": -35.8888328
+    },
+    "vacinas": {
+      "covid": 9,
+      "influenza": 0,
+      "hpv": 0,
+      "hepatite": 11,
+      "febre_amarela": 15
+    }
+  },
+  {
+    "posto": "UBS Ronaldo Cunha Lima",
+    "bairro": "Três Irmãs",
+    "endereco": "R. Otávio Batista Cabral, 700-740 - Três Irmãs, Campina Grande - PB, 58423-215",
+    "coords": {
+      "lat": -7.2547858,
+      "lng": -35.9207827
+    },
+    "vacinas": {
+      "covid": 0,
+      "influenza": 10,
+      "hpv": 9,
+      "hepatite": 7,
+      "febre_amarela": 0
+    }
+  },
+  {
+    "posto": "UBS Velame",
+    "bairro": "Velame",
+    "endereco": "R. Coração de Jesus, 63 - Velame, Campina Grande - PB, 58417-735",
+    "coords": {
+      "lat": -7.2565548,
+      "lng": -35.9104132
+    },
+    "vacinas": {
+      "covid": 0,
+      "influenza": 0,
+      "hpv": 0,
+      "hepatite": 0,
+      "febre_amarela": 17
+    }
+  },
+  {
+    "posto": "Policlínica das Malvinas",
+    "bairro": "Malvinas",
+    "endereco": "Av. Plinio Lemos - Malvinas, Campina Grande - PB, 58433-195",
+    "coords": {
+      "lat": -7.2371781,
+      "lng": -35.9241758
+    },
+    "vacinas": {
+      "covid": 18,
+      "influenza": 10,
+      "hpv": 0,
+      "hepatite": 5,
+      "febre_amarela": 12
+    }
+  },
+  {
+    "posto": "UBS Ana Amélia Vilar",
+    "bairro": "Cantalice Rocha Cavalcante",
+    "endereco": "R. Fernando de Noronha, s.n. - Três Irmãs, Campina Grande - PB, 58423-135",
+    "coords": {
+      "lat": -7.2513355,
+      "lng": -35.9212643
+    },
+    "vacinas": {
+      "covid": 2,
+      "influenza": 7,
+      "hpv": 20,
+      "hepatite": 14,
+      "febre_amarela": 17
+    }
+  },
+  {
+    "posto": "UBS Antônio Aurélio Ventura",
+    "bairro": "Três Irmãs",
+    "endereco": "R. Maria Eva Moura, 365-425 - Três Irmãs, Campina Grande - PB, 58423-490",
+    "coords": {
+      "lat": -7.253310300000001,
+      "lng": -35.92634839999999
+    },
+    "vacinas": {
+      "covid": 6,
+      "influenza": 0,
+      "hpv": 19,
+      "hepatite": 16,
+      "febre_amarela": 9
+    }
+  },
+  {
+    "posto": "UBS Djalma Barbosa",
+    "bairro": "Catolé de Boa Vista",
+    "endereco": "PB-138, 161 - Catolé, Campina Grande - PB, 58432-570",
+    "coords": {
+      "lat": -7.271566000000001,
+      "lng": -36.0956735
+    },
+    "vacinas": {
+      "covid": 0,
+      "influenza": 16,
+      "hpv": 3,
+      "hepatite": 3,
+      "febre_amarela": 0
+    }
+  },
+  {
+    "posto": "UBS Estreito",
+    "bairro": "Estreito",
+    "endereco": "PB-138, 972 - São José da Mata, Campina Grande - PB",
+    "coords": {
+      "lat": -7.267421799999999,
+      "lng": -35.9982128
+    },
+    "vacinas": {
+      "covid": 0,
+      "influenza": 10,
+      "hpv": 17,
+      "hepatite": 6,
+      "febre_amarela": 0
+    }
+  },
+  {
+    "posto": "UBS Estreito",
+    "bairro": "Sítio Lucas",
+    "endereco": "PB-138, 972 - São José da Mata, Campina Grande - PB",
+    "coords": {
+      "lat": -7.267421799999999,
+      "lng": -35.9982128
+    },
+    "vacinas": {
+      "covid": 16,
+      "influenza": 14,
+      "hpv": 4,
+      "hepatite": 19,
+      "febre_amarela": 17
+    }
+  },
+  {
+    "posto": "UBS Grande Campina",
+    "bairro": "Serrotão",
+    "endereco": "R. Arnaldo Lopes Fiúza, 172 - Serrotão, Campina Grande - PB, 58434-350",
+    "coords": {
+      "lat": -7.2344578,
+      "lng": -35.9363036
+    },
+    "vacinas": {
+      "covid": 5,
+      "influenza": 16,
+      "hpv": 0,
+      "hepatite": 6,
+      "febre_amarela": 0
+    }
+  },
+  {
+    "posto": "UBS Jardim Verdejante",
+    "bairro": "Três Irmãs",
+    "endereco": "R. Raul Pereira dos Santos, 200 - Três Irmãs, Campina Grande - PB, 58423-710",
+    "coords": {
+      "lat": -7.2529851,
+      "lng": -35.9345593
+    },
+    "vacinas": {
+      "covid": 3,
+      "influenza": 0,
+      "hpv": 0,
+      "hepatite": 15,
+      "febre_amarela": 0
+    }
+  },
+  {
+    "posto": "UBS Malvinas I (Estação Cidadania)",
+    "bairro": "Malvinas",
+    "endereco": "R. das Juremas, 68 - Serrotão, Campina Grande - PB, 58432-587",
+    "coords": {
+      "lat": -7.246872,
+      "lng": -35.920993
+    },
+    "vacinas": {
+      "covid": 17,
+      "influenza": 0,
+      "hpv": 0,
+      "hepatite": 3,
+      "febre_amarela": 18
+    }
+  },
+  {
+    "posto": "UBS Malvinas II",
+    "bairro": "Malvinas",
+    "endereco": "Av. Mal. Floriano Peixoto - Centenário, Campina Grande - PB, 58428-130",
+    "coords": {
+      "lat": -7.237194999999999,
+      "lng": -35.9241128
+    },
+    "vacinas": {
+      "covid": 15,
+      "influenza": 16,
+      "hpv": 6,
+      "hepatite": 16,
+      "febre_amarela": 19
+    }
+  },
+  {
+    "posto": "UBS Malvinas III – Equipe I",
+    "bairro": "Malvinas",
+    "endereco": "R. Carlos Formiga Pereira, 86 - Malvinas, Campina Grande - PB, 58432-728",
+    "coords": {
+      "lat": -7.2447941,
+      "lng": -35.9266187
+    },
+    "vacinas": {
+      "covid": 0,
+      "influenza": 13,
+      "hpv": 0,
+      "hepatite": 2,
+      "febre_amarela": 2
+    }
+  },
+  {
+    "posto": "UBS Malvinas IV",
+    "bairro": "Malvinas",
+    "endereco": "Av. Mal. Floriano Peixoto - Centenário, Campina Grande - PB, 58428-130",
+    "coords": {
+      "lat": -7.237194999999999,
+      "lng": -35.9241128
+    },
+    "vacinas": {
+      "covid": 0,
+      "influenza": 11,
+      "hpv": 13,
+      "hepatite": 9,
+      "febre_amarela": 0
+    }
+  },
+  {
+    "posto": "UBS Portal Sudoeste",
+    "bairro": "Portal Sudoeste",
+    "endereco": "R. Pedro Feitosa Neves, 171 - Três Irmãs, Campina Grande - PB, 58424-275",
+    "coords": {
+      "lat": -7.2649146,
+      "lng": -35.9337802
+    },
+    "vacinas": {
+      "covid": 19,
+      "influenza": 12,
+      "hpv": 9,
+      "hepatite": 0,
+      "febre_amarela": 14
+    }
+  },
+  {
+    "posto": "Policlínica de São José da Mata",
+    "bairro": "São José da Mata",
+    "endereco": "São José da Mata, Campina Grande - PB",
+    "coords": {
+      "lat": -7.182768299999999,
+      "lng": -35.9764703
+    },
+    "vacinas": {
+      "covid": 0,
+      "influenza": 5,
+      "hpv": 3,
+      "hepatite": 14,
+      "febre_amarela": 15
+    }
+  },
+  {
+    "posto": "UBS Beija-Flor",
+    "bairro": "São José da Mata",
+    "endereco": "São José da Mata, Campina Grande - PB",
+    "coords": {
+      "lat": -7.182768299999999,
+      "lng": -35.9764703
+    },
+    "vacinas": {
+      "covid": 4,
+      "influenza": 20,
+      "hpv": 1,
+      "hepatite": 5,
+      "febre_amarela": 7
+    }
+  },
+  {
+    "posto": "UBS Bem-te-vi",
+    "bairro": "São José da Mata",
+    "endereco": "São José da Mata, Campina Grande - PB",
+    "coords": {
+      "lat": -7.182768299999999,
+      "lng": -35.9764703
+    },
+    "vacinas": {
+      "covid": 17,
+      "influenza": 14,
+      "hpv": 0,
+      "hepatite": 7,
+      "febre_amarela": 0
+    }
+  },
+  {
+    "posto": "UBS Mutirão",
+    "bairro": "Mutirão",
+    "endereco": "R. Rafaela Souza e Silva - Serrotão, Campina Grande - PB, 58436-162",
+    "coords": {
+      "lat": -7.226121600000001,
+      "lng": -35.9506339
+    },
+    "vacinas": {
+      "covid": 9,
+      "influenza": 18,
+      "hpv": 19,
+      "hepatite": 4,
+      "febre_amarela": 19
+    }
+  },
+  {
+    "posto": "UBS Nely Maia",
+    "bairro": "Bodocongó",
+    "endereco": "R. José de Paiva Maia - Malvinas, Campina Grande - PB, 58432-764",
+    "coords": {
+      "lat": -7.2438841,
+      "lng": -35.9240234
+    },
+    "vacinas": {
+      "covid": 0,
+      "influenza": 12,
+      "hpv": 0,
+      "hepatite": 15,
+      "febre_amarela": 10
+    }
+  },
+  {
+    "posto": "UBS Odete Leandro (UEPB)",
+    "bairro": "Bodocongó",
+    "endereco": "Jardim Botânico UEPB - R. Brg. Eduardo Gomes, S/N - Universitário, Campina Grande - PB, 58429-280",
+    "coords": {
+      "lat": -7.2121769,
+      "lng": -35.9098851
+    },
+    "vacinas": {
+      "covid": 5,
+      "influenza": 6,
+      "hpv": 17,
+      "hepatite": 19,
+      "febre_amarela": 2
+    }
+  },
+  {
+    "posto": "UBS Sabiá",
+    "bairro": "São José da Mata",
+    "endereco": "Campina Grande, State of Paraíba",
+    "coords": {
+      "lat": -7.2206167,
+      "lng": -35.8888328
+    },
+    "vacinas": {
+      "covid": 2,
+      "influenza": 6,
+      "hpv": 13,
+      "hepatite": 18,
+      "febre_amarela": 16
+    }
+  },
+  {
+    "posto": "UBS UFCG",
+    "bairro": "Bodocongó",
+    "endereco": "R. Aprígio Veloso, 882 - Universitário, Campina Grande - PB, 58429-900",
+    "coords": {
+      "lat": -7.2171368,
+      "lng": -35.9097543
+    },
+    "vacinas": {
+      "covid": 13,
+      "influenza": 17,
+      "hpv": 18,
+      "hepatite": 0,
+      "febre_amarela": 5
+    }
+  }
+]

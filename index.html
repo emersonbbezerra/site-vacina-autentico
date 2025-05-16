@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vacinação - Campina Grande</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Consulta de Vacinas - Campina Grande</h1>
+    <input type="text" id="search" placeholder="Digite o nome da vacina..." />
+    <button onclick="buscarVacina()">Buscar</button>
+    <button onclick="verTodos()">Ver todos os postos</button>
+    <div id="mensagemErro" class="resultado"></div>
+    <div id="mapa"></div>
+    <div id="resultado" class="resultado"></div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7DtBzivhqwspeGBiSO8zOGT1cyTrN4a0&callback=inicializarMapa">
+    </script>
+</body>
+
+</html>
