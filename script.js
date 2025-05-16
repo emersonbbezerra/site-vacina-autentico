@@ -254,6 +254,8 @@ resultado.appendChild(lista);
   }
 }
 
+document.getElementById("btnBuscar").addEventListener("click", buscarVacina);
+
 function verTodos() {
   limparMarcadores();
 
