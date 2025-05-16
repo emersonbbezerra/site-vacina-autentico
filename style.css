@@ -69,6 +69,24 @@ button:hover {
   text-align: left;
 }
 
+.botao-ver-mais {
+  display: block;
+  margin: 16px auto;
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.botao-ver-mais:hover {
+  background-color: #0056b3;
+}
+
+
 .posto {
   background-color: #e3f2fd;
   padding: 15px;

@@ -116,7 +116,12 @@ function buscarVacina() {
   }
 
   const lista = document.createElement("div");
-  postosComVacina.forEach(posto => {
+let indiceAtual = 0;
+const LIMITE = 10;
+
+const mostrarPostos = (inicio, fim) => {
+  const trecho = postosComVacina.slice(inicio, fim);
+  trecho.forEach(posto => {
     const item = document.createElement("div");
     item.className = "posto";
     item.innerHTML = `
@@ -145,9 +150,7 @@ function buscarVacina() {
       });
 
       marcador.addListener("click", () => {
-        if (infoWindowAberto) {
-          infoWindowAberto.close();
-        }
+        if (infoWindowAberto) infoWindowAberto.close();
         infowindow.open(mapa, marcador);
         infoWindowAberto = infowindow;
       });
@@ -164,7 +167,47 @@ function buscarVacina() {
 
     lista.appendChild(item);
   });
-  resultado.appendChild(lista);
+};
+
+// Botão "Ver mais"
+const botaoMais = document.createElement("button");
+botaoMais.textContent = "Ver mais";
+botaoMais.className = "botao-ver-mais";
+botaoMais.addEventListener("click", () => {
+  const proximoIndice = indiceAtual + LIMITE;
+  mostrarPostos(indiceAtual, proximoIndice);
+  indiceAtual = proximoIndice;
+
+  // Remove o botão temporariamente
+  botaoMais.remove();
+
+  // Re-adiciona o botão no final da lista se ainda houver mais itens
+  if (indiceAtual < postosComVacina.length) {
+    lista.appendChild(botaoMais);
+  }
+
+  // Scroll suave para o botão (que estará no fim)
+  botaoMais.scrollIntoView({ behavior: "smooth", block: "end" });
+
+  // Remove o botão se exibiu todos os itens
+  if (indiceAtual >= postosComVacina.length) {
+    botaoMais.remove();
+  }
+});
+
+
+// Mostrar os primeiros 10
+mostrarPostos(indiceAtual, LIMITE);
+indiceAtual = LIMITE;
+
+// Se houver mais de 10, mostrar botão
+if (postosComVacina.length > LIMITE) {
+  lista.appendChild(botaoMais);
+}
+
+resultado.appendChild(lista);
+
+
   inputBusca.value = "";
 
   const maisProximos = postosComVacina.slice(0, 5);
