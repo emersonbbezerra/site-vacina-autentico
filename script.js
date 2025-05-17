@@ -254,8 +254,6 @@ resultado.appendChild(lista);
   }
 }
 
-document.getElementById("btnBuscar").addEventListener("click", buscarVacina);
-
 function verTodos() {
   limparMarcadores();
 
@@ -309,3 +307,5 @@ document.getElementById("search").addEventListener("keydown", function (event) {
 
 window.inicializarMapa = inicializarMapa;
 window.buscarVacina = buscarVacina;
+document.getElementById("btnBuscar").addEventListener("click", buscarVacina);
+document.getElementById("btnVerTodos").addEventListener("click", verTodos);
