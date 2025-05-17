@@ -116,15 +116,15 @@ function buscarVacina() {
   }
 
   const lista = document.createElement("div");
-let indiceAtual = 0;
-const LIMITE = 10;
+  let indiceAtual = 0;
+  const LIMITE = 10;
 
-const mostrarPostos = (inicio, fim) => {
-  const trecho = postosComVacina.slice(inicio, fim);
-  trecho.forEach(posto => {
-    const item = document.createElement("div");
-    item.className = "posto";
-    item.innerHTML = `
+  const mostrarPostos = (inicio, fim) => {
+    const trecho = postosComVacina.slice(inicio, fim);
+    trecho.forEach(posto => {
+      const item = document.createElement("div");
+      item.className = "posto";
+      item.innerHTML = `
       <strong>${posto.posto}</strong><br/>
       <strong>Endereço:</strong> ${posto.endereco}<br/>
       <strong>Vacina:</strong> ${posto.vacinaEncontrada.replace(/_/g, " ").toUpperCase()}<br/>
@@ -132,80 +132,80 @@ const mostrarPostos = (inicio, fim) => {
       <strong>Distância:</strong> ${posto.distancia.toFixed(2)} km
     `;
 
-    item.addEventListener("click", () => {
-      limparMarcadores();
-      const marcador = new google.maps.Marker({
-        position: posto.coords,
-        map: mapa,
-        title: posto.posto,
-      });
+      item.addEventListener("click", () => {
+        limparMarcadores();
+        const marcador = new google.maps.Marker({
+          position: posto.coords,
+          map: mapa,
+          title: posto.posto,
+        });
 
-      const infowindow = new google.maps.InfoWindow({
-        content: `
+        const infowindow = new google.maps.InfoWindow({
+          content: `
           <strong>${posto.posto}</strong><br/>
           ${posto.endereco}<br/>
           <strong>Vacina:</strong> ${posto.vacinaEncontrada.replace(/_/g, " ").toUpperCase()}<br/>
           <strong>Quantidade disponível:</strong> ${posto.quantidade}
         `,
+        });
+
+        marcador.addListener("click", () => {
+          if (infoWindowAberto) infoWindowAberto.close();
+          infowindow.open(mapa, marcador);
+          infoWindowAberto = infowindow;
+        });
+
+        marcadores.push(marcador);
+        mapa.panTo(posto.coords);
+        mapa.setZoom(15);
+
+        const mapaDiv = document.getElementById("mapa");
+        if (mapaDiv) {
+          mapaDiv.scrollIntoView({ behavior: "smooth", block: "center" });
+        }
       });
 
-      marcador.addListener("click", () => {
-        if (infoWindowAberto) infoWindowAberto.close();
-        infowindow.open(mapa, marcador);
-        infoWindowAberto = infowindow;
-      });
-
-      marcadores.push(marcador);
-      mapa.panTo(posto.coords);
-      mapa.setZoom(15);
-
-      const mapaDiv = document.getElementById("mapa");
-      if (mapaDiv) {
-        mapaDiv.scrollIntoView({ behavior: "smooth", block: "center" });
-      }
+      lista.appendChild(item);
     });
+  };
 
-    lista.appendChild(item);
+  // Botão "Ver mais"
+  const botaoMais = document.createElement("button");
+  botaoMais.textContent = "Ver mais";
+  botaoMais.className = "botao-ver-mais";
+  botaoMais.addEventListener("click", () => {
+    const proximoIndice = indiceAtual + LIMITE;
+    mostrarPostos(indiceAtual, proximoIndice);
+    indiceAtual = proximoIndice;
+
+    // Remove o botão temporariamente
+    botaoMais.remove();
+
+    // Re-adiciona o botão no final da lista se ainda houver mais itens
+    if (indiceAtual < postosComVacina.length) {
+      lista.appendChild(botaoMais);
+    }
+
+    // Scroll suave para o botão (que estará no fim)
+    botaoMais.scrollIntoView({ behavior: "smooth", block: "end" });
+
+    // Remove o botão se exibiu todos os itens
+    if (indiceAtual >= postosComVacina.length) {
+      botaoMais.remove();
+    }
   });
-};
 
-// Botão "Ver mais"
-const botaoMais = document.createElement("button");
-botaoMais.textContent = "Ver mais";
-botaoMais.className = "botao-ver-mais";
-botaoMais.addEventListener("click", () => {
-  const proximoIndice = indiceAtual + LIMITE;
-  mostrarPostos(indiceAtual, proximoIndice);
-  indiceAtual = proximoIndice;
 
-  // Remove o botão temporariamente
-  botaoMais.remove();
+  // Mostrar os primeiros 10
+  mostrarPostos(indiceAtual, LIMITE);
+  indiceAtual = LIMITE;
 
-  // Re-adiciona o botão no final da lista se ainda houver mais itens
-  if (indiceAtual < postosComVacina.length) {
+  // Se houver mais de 10, mostrar botão
+  if (postosComVacina.length > LIMITE) {
     lista.appendChild(botaoMais);
   }
 
-  // Scroll suave para o botão (que estará no fim)
-  botaoMais.scrollIntoView({ behavior: "smooth", block: "end" });
-
-  // Remove o botão se exibiu todos os itens
-  if (indiceAtual >= postosComVacina.length) {
-    botaoMais.remove();
-  }
-});
-
-
-// Mostrar os primeiros 10
-mostrarPostos(indiceAtual, LIMITE);
-indiceAtual = LIMITE;
-
-// Se houver mais de 10, mostrar botão
-if (postosComVacina.length > LIMITE) {
-  lista.appendChild(botaoMais);
-}
-
-resultado.appendChild(lista);
+  resultado.appendChild(lista);
 
 
   inputBusca.value = "";
@@ -256,6 +256,11 @@ resultado.appendChild(lista);
 
 function verTodos() {
   limparMarcadores();
+
+  const resultado = document.getElementById("resultado");
+  const mensagemErro = document.getElementById("mensagemErro");
+  resultado.innerHTML = "";
+  mensagemErro.innerHTML = "";
 
   postosVacina.forEach((posto) => {
     const marcador = new google.maps.Marker({
